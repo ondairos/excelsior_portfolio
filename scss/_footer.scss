@@ -1,0 +1,40 @@
+footer {
+  position: relative;
+  min-height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fafb;
+
+  .footer-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .footer-thanks,
+  .footer-creator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 4rem;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-thanks {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 40em) {
+}
+
+@media screen and (max-width: 80em) {
+  footer {
+    margin-top: 4rem;
+  }
+}
