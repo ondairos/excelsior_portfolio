@@ -5,7 +5,7 @@
   max-width: 100%;
 
   .testimonials-container {
-    max-width: 80%;
+    max-width: 100%;
     min-height: auto;
     margin: 8rem auto;
     position: relative;
@@ -78,6 +78,7 @@
 
 @media screen and (max-width: 80em) {
   .testimonials-container {
+    max-width: 85% !important;
     margin: 1rem auto;
     .testimonials-cards {
       flex-direction: column;

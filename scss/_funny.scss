@@ -4,7 +4,7 @@
 
 .funny-content {
   position: relative;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
   margin-bottom: 8rem;
   min-height: auto;
@@ -111,7 +111,7 @@
     margin: 0 auto;
 
     .funny-column {
-      width: 100%;
+      width: 90% !important;
     }
   }
 }
@@ -121,8 +121,16 @@
     margin: 0 auto;
 
     .funny-column {
-      width: 100%;
+      width: 90% !important;
       height: auto;
+
+      .tsipouro-img {
+        margin: 0 auto;
+        padding: 0;
+        width: 90%;
+        height: 20% !important;
+        object-fit: cover;
+      }
     }
   }
   .funny-columns {

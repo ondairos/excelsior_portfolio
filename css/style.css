@@ -452,7 +452,7 @@ footer .footer-thanks {
 
 .funny-content {
   position: relative;
-  max-width: 80%;
+  max-width: 100%;
   margin: 0 auto;
   margin-bottom: 8rem;
   min-height: auto;
@@ -554,7 +554,7 @@ footer .footer-thanks {
     margin: 0 auto;
   }
   .funny-content .funny-column {
-    width: 100%;
+    width: 90% !important;
   }
 }
 @media screen and (max-width: 80em) {
@@ -562,8 +562,16 @@ footer .footer-thanks {
     margin: 0 auto;
   }
   .funny-content .funny-column {
-    width: 100%;
+    width: 90% !important;
     height: auto;
+  }
+  .funny-content .funny-column .tsipouro-img {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    height: 20% !important;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .funny-columns {
     flex-direction: column;
@@ -593,7 +601,7 @@ footer .footer-thanks {
   max-width: 100%;
 }
 .testimonials-section .testimonials-container {
-  max-width: 80%;
+  max-width: 100%;
   min-height: auto;
   margin: 8rem auto;
   position: relative;
@@ -651,6 +659,7 @@ footer .footer-thanks {
 
 @media screen and (max-width: 80em) {
   .testimonials-container {
+    max-width: 85% !important;
     margin: 1rem auto;
   }
   .testimonials-container .testimonials-cards {
